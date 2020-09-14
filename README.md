@@ -15,7 +15,7 @@ What it does -
 
 #### 2. Clone this repository
 ```
-git clone 
+git clone https://github.com/shivdatt/simple-email-workflow.git
 cd email-workflow
 ```
 
