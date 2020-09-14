@@ -78,7 +78,7 @@ SASS files are stored in the `src/sass/` directory.
 You can create subdirectories within the SASS folder to hold any partials. Make sure to precede the name of a partial with an underscore, e.g. `_typography_.scss`.
 
 
-## Local Build to preferred email platform 
+## Local build to preferred email platform 
 
 #### Development
 while building the template
