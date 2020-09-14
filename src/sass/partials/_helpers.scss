@@ -1,0 +1,49 @@
+.padded-text-container {
+  width: $content-width;
+}
+
+.side-padding {
+  width: 15%;
+}
+
+
+.main-skeleton{
+  width: 70%;
+}
+  
+.vertical-padding {
+  height: $standard-padding;
+
+  &-half {
+    height: $standard-padding / 2;
+  }
+
+  &-2x {
+    height: $standard-padding * 2;
+  }
+
+  &-3x {
+    height: $standard-padding * 3;
+  }
+
+  &-4x {
+    height: $standard-padding * 4;
+  }
+}
+
+.bottom-padding {
+  height: 50px;
+}
+
+
+@for $i from 2 through 10 {
+  .col-#{$i} {
+    width: percentage(1 / $i);
+  }
+}
+
+@for $i from 1 through 10 {
+  .fluid-width-#{$i} {
+    width: percentage($i / 10);
+  }
+}

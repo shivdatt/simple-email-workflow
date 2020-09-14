@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Start Copy Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- End Copy Meta -->
+
+  <title>{{ title }}</title>
+
+  <!-- Start Copy Styles and delete <style> </style> tags -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- End Copy Styles -->
+
+</head>
+<body>
+
+<!-- Start Copy HTML -->
+  <table class="page-background" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td>
+      <!-- email-container -->
+        <table class="email-container" align="center" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td>
+              <!--Header-->
+              {% include "header.html" %}
+              <!--End of Header-->
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!--Sub Header-->
+              {% include "sub-header.html" %}
+              <!--End of Sub Header-->
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!--Content-->
+              {% block content %}{% endblock %}
+              <!--End of Content-->
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!--Sub Content-->
+              {% block subContent %}{% endblock %}
+              <!--End of Sub Content-->
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!--Footer-->
+              {% include "footer.html" %}
+              <!--End of Footer-->
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!--Sub Footer-->
+              {% include "sub-footer.html" %}
+              <!--End of Sub Footer-->
+            </td>
+          </tr>
+        </table>
+        <!-- End of email-container -->
+      </td>
+    </tr>
+    <tr>
+      <td class="bottom-padding">&nbsp;</td>
+    </tr>
+  </table>
+<!-- End Copy HTML -->
+
+</body>
+</html>
