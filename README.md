@@ -9,7 +9,7 @@ What it does -
 
 ## Getting Started
 
-#### 1. ependencies
+#### 1. Dependencies
 - Node.js (v10.x) with npm (v6.x) ([Install](https://nodejs.org/en/download/releases/))   
 - Gulp.js (v3.x) ([Quick start](https://gulpjs.com/docs/en/getting-started/quick-start))
 
@@ -18,18 +18,14 @@ What it does -
 git clone https://github.com/shivdatt/simple-email-workflow.git
 cd email-workflow
 ```
-
-#### 3. Setup npm config file / proxy
-
-
-#### 4. Install packages  (Skip this step for now)
+#### 3. Install packages  (Skip this step for now)
 
 ```
 npm install
 ```
 It will download all the dependencies and create node_modules folder.  
 
-#### 5. Start build
+#### 4. Start build
 
 ```
 npm start

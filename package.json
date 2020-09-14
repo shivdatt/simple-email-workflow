@@ -2,11 +2,11 @@
   "name": "gulp-email-workflow",
   "description": "A workflow for building HTML email using Gulp",
   "version": "1.0.0",
-  "author": "Ire Aderinokun",
+  "author": "Shivdatt",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ireade/gulp-email-workflow"
+    "url": "https://github.com/shivdatt/simple-email-workflow"
   },
   "main": "gulpfile.js",
   "devDependencies": {
