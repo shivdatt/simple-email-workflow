@@ -87,6 +87,8 @@ once build is completed, run `npm start`
 - go to `localhost:8000`
 - open the email you just built
 
+![Email workflow](https://i.ibb.co/tJvfRhc/email-workflow.png)
+
 #### Copy the source
 Copy the required source from your local build
 - meta
